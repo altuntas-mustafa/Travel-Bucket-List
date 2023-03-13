@@ -3,36 +3,31 @@
 
 This is a full-stack web application that allows users to create a bucket list of countries and cities they want to visit, as well as keep track of the countries and cities they have already visited. Users can also leave comments on their travel experiences and add links to relevant websites. The app is built using React, Express, MongoDB, and external APIs.
 
-Installation
+#Installation
 Clone the repository: git clone https://github.com/your-username/travel-bucket-list.git
-Install dependencies: cd travel-bucket-list && npm install
-Set up environment variables by creating a .env file in the root directory with the following variables:
-makefile
-Copy code
-PORT=3001
-MONGO_URI=<your MongoDB connection string>
-SESSION_SECRET=<your session secret>
-Start the server: npm run server
+Install dependencies: # cd travel-bucket-list && npm install
+
+#Start the server: npm run server
 Start the client: npm run client
 Open the app in your browser at http://localhost:3000
 Usage
-Register and login
+#Register and login
 To use the app, you must first create an account. Click the "Register" button and fill out the registration form with your name, email, and password. Once registered, you can log in with your email and password.
 
-Add destinations to your bucket list
+#Add destinations to your bucket list
 To add a destination to your bucket list, click the "Add Destination" button and search for a country or city using the search bar. Once you find the destination you want to add, click the "Add to Bucket List" button. You can also add a comment and links to relevant websites.
 
-Mark destinations as visited
+#Mark destinations as visited
 Once you have visited a destination, you can mark it as visited by clicking the "Mark as Visited" button on the destination card. You can also leave a comment and rating for the destination.
 
-Edit your bucket list
+#Edit your bucket list
 To edit a destination in your bucket list, click the "Edit" button on the destination card. You can then edit the destination name, comment, and links.
 
-Contributing
+#Contributing
 If you would like to contribute to the project, please fork the repository and create a pull request. All contributions are welcome!
 
-Credits
+#Credits
 This app was built by [Your Name] and is based on the React Express Starter project by Sandeep Panda.
 
-License
+#License
 This project is licensed under the MIT License.
