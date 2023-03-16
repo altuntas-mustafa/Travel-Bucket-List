@@ -2,15 +2,15 @@ export type PlaceExternalData = {
   id: string
   name: string;
   country: string;
-  lat: number;
-  lon: number;
-  population: number;
   timezone: string;
-  status: string;
+  population: number;
+  visited: boolean; // new field
   url:string[]
 };
 
+
 export type PlaceData = {
+  id: string,
   name: string;
   country: string;
   lat: number;
@@ -21,7 +21,7 @@ export type PlaceData = {
   visited: false
 };
 export type DbPlace = {
-  places: object[],
+  places: PlaceExternalData[],
   totalNumberOfPlaceVisited: number,
   totalNumberOfPlaceInBucket: number,
   totalCountryVisited: number,

@@ -1,0 +1,26 @@
+{
+  "name": "travel-bucket-list-",
+  "version": "1.0.0",
+  "description": "api key = 5ae2e3f221c38a28845f05b643242d4037c8e3ac7e686aa908b2673d",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altuntas-mustafa/Travel-Bucket-List-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/altuntas-mustafa/Travel-Bucket-List-/issues"
+  },
+  "homepage": "https://github.com/altuntas-mustafa/Travel-Bucket-List-#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.1",
+    "@types/uuid": "^9.0.1",
+    "axios": "^1.3.4",
+    "uuid": "^9.0.0"
+  }
+}

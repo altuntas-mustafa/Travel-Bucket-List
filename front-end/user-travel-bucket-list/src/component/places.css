@@ -1,0 +1,86 @@
+.places-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.bucket-list-container,
+.visited-places-container {
+    background-color: bisque;
+    border: 0.1vw black solid;
+    width: 45%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: red;
+    background-color: black;
+    font-size: 3vw;
+    margin-bottom: 2vh;
+}
+
+.bucket-list,
+.visited-places,
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.place-card {
+    width: calc(33.33% - 20px);
+    margin-left: 3vw;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.place-info {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.place-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.place-country {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.place-timezone {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.place-population {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.place-delete-btn {
+    margin-left: 3.5vw;
+    background-color: #e74c3c;
+    font-size: 1vw;
+    width: 5vw;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.place-delete-btn:hover {
+    background-color: blue;
+}
