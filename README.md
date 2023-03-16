@@ -5,7 +5,7 @@ External Api : https://opentripmap.io/examples
 This is a full-stack web application that allows users to create a bucket list of countries and cities they want to visit, as well as keep track of the countries and cities they have already visited. Users can also leave comments on their travel experiences and add links to relevant websites. The app is built using React, Express, MongoDB, and external APIs.
 
 #Installation
-Clone the repository: git clone https://github.com/your-username/travel-bucket-list.git
+Clone the repository: git clone git@github.com:altuntas-mustafa/Travel-Bucket-List.git
 Install dependencies: # cd travel-bucket-list && npm install
 
 #Start the server: npm run server
